@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>developer</title>
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--scss-->
+    <link rel="stylesheet" type="text/css" href="../styles/css/style.css">
+
+</head>
+<body id="page-top" class="d-flex flex-column h-100">
+
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-2 d-md-block d-none p-0 bg-dark">
+            <div class="text-white min-vh-100 position-relative">
+                <div class="d-flex position-absolute align-items-center justify-content-center top-50 col-12">
+                    <div class="position-fixed col-auto col-md-2 px-4">
+                        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                            <figure class="ratio ratio-1x1">
+                                <img class="rounded rounded-circle" src="../assets/me.jpg" alt="..."/>
+                                <figcaption class="text-white" style="margin-top: 100%; margin-left: 17%">Виталий
+                                    Лыков
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <div class="collapse navbar-collapse show">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                                                        href="#about">Обо мне</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                                                        href="#education">Образование</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                                                        href="#skills">Навыки</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col p-0">
+            <header>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">О разработчике</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                       href="../pages/index.html">Домашняя</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                       href="../pages/culture.html">Культура</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../pages/infrastructure.html">Инфраструктура</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../pages/city_history.html">История
+                                        города</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main class="p-3" data-bs-spy="scroll" data-bs-target="#sideNav">
+                <!--Обо мне-->
+                <section class="resume-section" id="about">
+                    <div class="resume-section-content">
+                        <h1 class="mb-0">
+                            Виталий
+                            <span class="text-primary">Лыков</span>
+                        </h1>
+                        <div class="subheading mb-3">
+                            Россия · ДНР · Донецк · ДонГУ ·
+                            <span class="text-primary">ИВТ-1</span>
+                        </div>
+                        <p class="lead">Начинающий WEB-разработчик</p>
+                        <p class="lead">Дата рождения: 20.02.2004</p>
+                        <p class="lead">Место рождения: Россия, ДНР, Горловка</p>
+
+                    </div>
+                </section>
+                <hr class="m-0"/>
+                <!-- Образование-->
+                <section class="resume-section" id="education">
+                    <div class="resume-section-content">
+                        <h2 class="mb-3">Образование</h2>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-0">
+                            <div class="flex-grow-1">
+                                <h5 class="mb-0">Донецкий национальный Государственный университет</h5>
+                                <div class="subheading mb-0">Бакалавр</div>
+                                <div>Информатика и вычислительная техника</div>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">Сентябрь 2021 - Текущее время</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="m-0"/>
+                <!-- Навыки-->
+                <section class="resume-section" id="skills">
+                    <div class="resume-section-content">
+                        <h2 class="mb-3">Навыки</h2>
+                        <div class="col-md-10">
+                            <canvas id="myChart"></canvas>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+
+            <!--footer-->
+            <footer class="footer mt-4 bg-dark">
+                <!-- Button trigger modal -->
+                <div class="container text-center">
+                    <a class="text-white feedback" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Связь со мной
+                    </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form id="feedback-form" class="feedback-form novalidate" onsubmit="return false"
+                                          method="post">
+                                        <div class="mb-3 input-control">
+                                            <label for="email" class="col-form-label">Email для обратной связи:</label>
+                                            <input type="text" class="form-control" id="email" required>
+                                            <div class="error"></div>
+                                        </div>
+                                        <div class="mb-3 mt-2">
+                                            <label for="message" class="col-form-label">Сообщение (опционально):</label>
+                                            <textarea class="form-control" id="message"></textarea>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Закрыть
+                                            </button>
+                                            <button type="submit" class="btn btn-primary">Отправить</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container text-center">
+                    <span class="text-white">2023 (c) All rights reserved.</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+
+
+<!--for bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="../js/scripts.js"></script>
+</body>
+</html>

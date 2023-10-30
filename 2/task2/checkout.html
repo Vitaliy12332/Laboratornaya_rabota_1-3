@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/67533eb7ff.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="header__box">
+                <a class="logo d-flex justify-content-center" href="index.html" aria-label="main page">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <form class="header__search">
+                    <input type="search" placeholder="Poco X3 PRO...">
+                    <button aria-label="search-btn" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header__box">
+                <a href="Shopping_Cart.html">
+                    <button class="header__box__basket_btn" aria-label="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </a>
+                <a href="checkout.html">
+                    <button class="header__box__profile_btn">Профиль</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<nav class="header__nav navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container">
+        <a class="nav-link" href="product.html">Телефоны</a>
+        <a class="nav-link" href="product.html">Планшеты</a>
+        <a class="nav-link" href="product.html">Зарядки</a>
+        <a class="nav-link" href="product.html">Провода</a>
+        <a class="nav-link" href="product.html">Аксессуары</a>
+        <a class="nav-link" href="product.html">Доставка и оплата</a>
+        <a class="nav-link" href="product.html">Гарантии и возврат</a>
+    </div>
+
+</nav>
+
+
+<div class="content">
+    <div class="checkout">
+        <div class="container">
+            <div class="checkout__body">
+                <div class="checkout__top__filter">
+                    <div class="checkout__dropdown">
+                        <button class="checkout__dropbtn">01. Адрес доставки
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="checkout__dropdown-content">
+                            <div class="checkout__dropdown-content_1">
+                                <p><span>Закажите как гость или зарегистрируйтесь</span></p>
+                                <span>Зарегистрируйтесь для лучшего взаимодействия </span><br><br>
+                                <div class="imput_radio">
+                                    <p>
+                                        <input type="radio" name="option1" value="a1" checked>Продолжить как гость
+                                    </p>
+                                    <p>
+                                        <input type="radio" name="option1" value="a1" checked>Зарегистрироваться
+                                    </p><br>
+                                </div>
+                                <p><span>Зарегистрируйтесь и сохраните своё время</span></p>
+                                <span>Зарегистрируйтесь для лучшего взаимодействия</span><br><br>
+                                <span>&raquo; Простой и быстрый заказ</span>
+                                <span>&raquo; Легкий доступ к историям и деталям заказов</span><br><br>
+                                <button class="button__continue">Продолжить
+                                </button>
+                            </div>
+                            <div class="checkout__dropdown-content_2">
+                                <p><span>Уже зарегистрированы?</span></p>
+                                <span>Войти</span><br>
+                                <p><span>EMAIL <a>*</a></span></p><br>
+                                <input type="text" name="email"><br>
+                                <p><span>Пароль <a>*</a></span></p><br>
+                                <input type="password" name="password"><br>
+                                <span><a>* Обязательные поля</a></span><br>
+                                <div class="forgot_password">
+                                    <button class="button__log">Войти
+                                    </button>
+                                    <span>Забыли пароль ?</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkout__dropdown">
+                        <button class="checkout__dropbtn">02. Оплата
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="checkout__dropdown-content">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="checkout__dropdown">
+                        <button class="checkout__dropbtn">03. Доставка
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="checkout__dropdown-content">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="checkout__dropdown">
+                        <button class="checkout__dropbtn">04. Методы достаки
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="checkout__dropdown-content">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="checkout__dropdown">
+                        <button class="checkout__dropbtn">05. Способ оплаты
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="checkout__dropdown-content">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="checkout__dropdown">
+                        <button class="checkout__dropbtn">06. Ваш заказ
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="checkout__dropdown-content">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__body">
+        <div class="container">
+            <div class="footer__body__box">
+                <div class="footer__body__desc">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="footer__body__column">
+                    <div class="column">
+                        <span class="column__title">МАГАЗИН</span>
+                        <a class="column__subtitle" href="">Главная</a>
+                        <a class="column__subtitle" href="">Товары</a>
+                        <a class="column__subtitle" href="">О нас</a>
+                        <a class="column__subtitle" href="">Как работает доставка</a>
+                        <a class="column__subtitle" href="">Связь</a>
+                    </div>
+                    <div class="column">
+                        <span class="column__title">Информация</span>
+                        <a class="column__subtitle" href="">Условия согласения</a>
+                        <a class="column__subtitle" href="">Политика конфиденциальности</a>
+                        <a class="column__subtitle" href="">Как купить</a>
+                        <a class="column__subtitle" href="">Как продать</a>
+                        <a class="column__subtitle" href="">Реферальная система</a>
+                    </div>
+                    <div class="column">
+                        <span class="column__title">КАТЕГОРИИ</span>
+                        <a class="column__subtitle" href="">Телефоны</a>
+                        <a class="column__subtitle" href="">Планшеты</a>
+                        <a class="column__subtitle" href="">Зарядки</a>
+                        <a class="column__subtitle" href="">Провода</a>
+                        <a class="column__subtitle" href="">Аксессуары</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__copy">
+        <div class="container">
+            <div class="footer__copy__box">
+                <span>© 2023 All Rights Reserved.</span>
+                <div class="footer__soc">
+                    <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

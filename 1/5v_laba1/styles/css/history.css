@@ -1,0 +1,78 @@
+html, body, .intro {
+  height: 100%;
+}
+
+body ~ a :link :lang(en) {
+  font-weight: bold;
+}
+
+table td, table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.table-scroll {
+  border-radius: 0.5rem;
+}
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
+
+thead {
+  top: 0;
+  position: sticky;
+}
+
+.td-desc {
+  white-space: normal;
+  text-align: justify;
+}
+.td-desc > :not(:nth-child(even)) {
+  color: #0c4128;
+}
+
+* :empty :active {
+  color: #101214;
+}
+* :empty :disabled {
+  color: red;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+.input-control > input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+.input-control > input:focus {
+  outline: 0;
+}
+.input-control.success input {
+  border-color: #09c372;
+}
+.input-control.error input {
+  border-color: #ff3860;
+}
+.input-control .error {
+  color: #ff3860;
+  font-size: 16px;
+  height: 13px;
+}
+
+/*# sourceMappingURL=history.css.map */

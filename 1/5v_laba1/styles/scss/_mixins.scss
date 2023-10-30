@@ -1,0 +1,3 @@
+@mixin line-clamp($lines) {
+  -webkit-line-clamp: $lines;
+}

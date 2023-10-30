@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>История города</title>
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--my scss styles-->
+    <link rel="stylesheet" type="text/css" href="../styles/css/history.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid row">
+            <div class="col">
+                <div class="d-flex justify-content-between flex-wrap">
+                    <a class="navbar-brand" href="#">История города</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/index.html">Домашняя</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/developer.html">О
+                                    разработчике</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/culture.html">Культура</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                   href="../pages/infrastructure.html">Инфраструктура</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+
+    <section class="intro mt-2">
+        <div class="bg-image h-100" style="background-color: #f5f7fa;">
+            <div class="mask d-flex align-items-center h-100">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body p-0">
+                                    <div class="table-responsive table-scroll" data-mdb-perfect-scrollbar="true"
+                                         style="position: relative; height: 700px">
+                                        <table class="table table-striped mb-0">
+                                            <thead style="background-color: #002d72;">
+                                            <tr>
+                                                <th scope="col">Событие</th>
+                                                <th class="text-center" scope="col">Год</th>
+                                                <th class="text-center" scope="col">Описание</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Название города</td>
+                                                <td class="fw-bold text-center"><time>Неизвестно</time></td>
+                                                <td class="td-desc">По одной из бытующих в городе легенд название «Снежное место» приписывают царице
+                                                    <a class="text-decoration-none" target="_blank" href="https://ru.wikipedia.org/wiki/Екатерина_II"><mark>Екатерине II</mark></a>. В самом начале своего восхождения на престол царица послала казаков гусарского полка для наведения порядка на далеких южных рубежах Российской империи. Баталия сия происходила в осенне-зимнее время. И в декабрьскую пургу казаки - гусары были занесены снегом. Об этом незамедлительно доложили императрице. Казаки не могли выбраться без посторонней помощи. Высота заносов достигала 1,5-2 метра. С Воронежской губернии пришла помощь. Вот тут Екатерина ІІ и произнесла знаменитые слова о нашем крае: «Какое снежное место!» </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Заселение города</td>
+                                                <td class="fw-bold text-center"><time>1784</time></td>
+                                                <td class="td-desc">С 1784 года началось заселение территории, где расположен теперь город, когда казачий старшина Иван Васильев с разрешения войскового круга Области Войска Донского открыл постоялый двор возле "Снежного места".</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Открытие месторождений полезных ископаемых</td>
+                                                <td class="fw-bold text-center"><time>1908</time></td>
+                                                <td class="td-desc">В 1908 году открыта шахта "Снежнянский антрацит",
+                                                    "Снежнянский рудник",
+                                                    Прохоровской Трёхгорной мануфактуры, в 1909 году - шахта горного
+                                                    мастера Кащеева,
+                                                    а позже - Шварцевское рудоуправление. Около шахт выросли посёлки.
+                                                    В 1913 году заложен рудник "Ремовский антрацит", к этому времени в
+                                                    Снежном
+                                                    проживало 863 человека, в посёлке появились первые фельдшерский
+                                                    пункт и школа.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Революция Большевиков</td>
+                                                <td class="fw-bold text-center"><time>1913</time></td>
+                                                <td class="td-desc">В декабре 1913 года в городе была создана большевистская организация, которая развернула революционную деятельность среди рабочих. 6 марта 1917 года в поселке стало известно о свержении самодержавия, учителя и учащиеся местной школы сорвали со стены портрет царя, проволокли его по улицам, заполненными людьми, и бросили в шурф шахты. Ликвидировали волостное управление и разоружили полицию. На шахтах создали рудничные комитеты, которые подчинялись Чистяковскому районному Совету рабочих депутатов. Правда до 1920 года в город приходили то «красные», то «белые». Разрушали шахты, проводили расстрелы и не давали друг другу работать: затопили шахты, разрушили хозяйственные постройки.
+                                                    Лишь в январе 1920 года в Снежном установилась постоянная власть. Советы под руководством коммунистов мобилизовали население на ликвидацию хозяйственной разрухи. Приступили шахтеры к восстановлению затопленных шахт.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Первый кинотеатр в городе</td>
+                                                <td class="fw-bold text-center"><time>1925</time></td>
+                                                <td class="td-desc">В 1925 году комсомольцы решили построить летний кинотеатр на пустыре в дубовой балке (теперь здесь городской парк). Лесоматериалы получили на шахте № 9, но гвоздей не было. На заседании правления клуба приняли решение дать спектакль, а плату за вход брать гвоздями: за один билет — 15 гвоздей любых размеров. В афише к спектаклю писали, что каждый забитый гвоздь — это удар по контрреволюции в деле развития культуры пролетариата. Благодаря находчивости и инициативе комсомольцев летний кинотеатр был сооружен.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Освобождение снежнянского района во время ВОВ</td>
+                                                <td class="fw-bold text-center"><time>1943</time></td>
+                                                <td class="td-desc">Летом 1943 года на подступах к Снежному, на Миусе, разгорелось сражение за Донбасс. 18 августа 1943 года части Южного фронта перешли в общее наступление. Войска 5-й ударной армии усилили натиск на врага в направлении Снежное—Чистяково. Ожесточенные бои развернулись за Саур-Могилу — важный опорный пункт гитлеровского Миус-фроита. 96-я стрелковая дивизия во взаимодействии с 387-й стрелковой дивизией в ночь на 30 августа начали штурм Саур-Могилы. Преодолевая упорное сопротивление врага, 17 гвардейцев во главе с младшим лейтенантом Г. П. Шевченко прорвались к высоте. В схватке с врагом Г. П. Шевчеяко погиб, Командира заменил старшина С. Кораблев. На рассвете 31 августа возглавляемая им штурмовая. группа пробилась к самой вершине кургана. Гитлеровцы перешли в контратаку и окружили гвардейцев, но советские бойцы держались стойко. На штурм Саур-Могилы двинулись советские танки. Одним из первых прорвался танк гвардии старшего лейтенанта А. Рулева. Умело маневрируя, он поджег семь фашистских танков. За танкистами шла пехота, Саур-Могила была взята.
+                                                    1 сентября 1943 года войска 5-й ударной армии Южного фронта освободили Снежное. 4800 жителей города принимали участие в Великой Отечественной войне, из них 3000 погибли, 3404 за боевые подвиги награждены орденами и медалями.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Награждение города знаком Почёта</td>
+                                                <td class="fw-bold text-center"><time>1985</time></td>
+                                                <td class="td-desc">22 января 1985 года принят указ Президиума Верховного Совета СССР о награждении города Снежное орденом «Знак Почёта».</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Название</td>
+                                                <td class="fw-bold text-center"><time>Год</time></td>
+                                                <td class="td-desc">Описание</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Название</td>
+                                                <td class="fw-bold text-center">Год</td>
+                                                <td class="td-desc">Описание</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Название</td>
+                                                <td class="fw-bold text-center">Год</td>
+                                                <td class="td-desc">Описание</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Название</td>
+                                                <td class="fw-bold text-center">Год</td>
+                                                <td class="td-desc">Описание</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Название</td>
+                                                <td class="fw-bold text-center">Год</td>
+                                                <td class="td-desc">Описание</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Название</td>
+                                                <td class="fw-bold text-center">Год</td>
+                                                <td class="td-desc">Описание</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Название</td>
+                                                <td class="fw-bold text-center">Год</td>
+                                                <td class="td-desc">Описание</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Название</td>
+                                                <td class="fw-bold text-center">Год</td>
+                                                <td class="td-desc">Описание</td>
+                                            </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<!--footer-->
+<footer class="footer mt-4 bg-dark">
+    <!-- Button trigger modal -->
+    <div class="container text-center">
+        <a class="text-white feedback" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Связь со мной
+        </a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Обратная связь</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="feedback-form" class="feedback-form novalidate" onsubmit="return false" method="post">
+                            <div class="mb-3 input-control">
+                                <label for="email" class="col-form-label">Email для обратной связи:</label>
+                                <input type="text" class="form-control" id="email" required>
+                                <div class="error"></div>
+                            </div>
+                            <div class="mb-3 mt-2">
+                                <label for="message" class="col-form-label">Сообщение (опционально):</label>
+                                <textarea class="form-control" id="message"></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <span class="text-white">2023 (c) All rights reserved.</span>
+    </div>
+</footer>
+
+<!--for bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="../js/scripts.js"></script>
+</body>
+</html>

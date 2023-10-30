@@ -1,0 +1,231 @@
+
+.anim2-container {
+    width: 400px;
+    height: 400px;
+    background: burlywood;
+}
+
+.anim2:hover > .ball_1 {
+    animation: ball_rotate_left 10s ease infinite;
+}
+.anim2:hover > .ball_7 {
+    animation: ball_rotate_right 10s ease infinite;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: 5%;
+}
+
+.ball_1 {
+    background: #2b5a78;
+    left: 0;
+    position: relative;
+    transform-origin:50% -300%;
+    animation-play-state: paused;
+}
+.ball_2 {
+    background: #405870;
+}
+.ball_3 {
+    background: #5a5164;
+}
+.ball_4 {
+    background: #7f4b4f;
+}
+.ball_5 {
+    background: #a74238;
+}
+.ball_6 {
+    background: #ca3b2a;
+}
+.ball_7 {
+    background: #da3c23;
+    position: relative;
+    transform-origin: 50% -300%;
+    right: 0;
+    animation-play-state:paused;
+}
+
+@keyframes ball_rotate_left {
+    0% {
+        transform: rotate(0deg);
+    }
+    3.57%{
+        transform: rotate(70deg);
+    }
+    7.14%{
+        transform: rotate(0deg);
+    }
+    10.71%{
+        transform: rotate(0deg);
+    }
+    14.28% {
+        transform: rotate(0deg);
+    }
+    17.85%{
+        transform: rotate(60deg);
+    }
+    21.42%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    28.56% {
+        transform: rotate(0deg);
+    }
+    32.13%{
+        transform: rotate(50deg);
+    }
+    35.7%{
+        transform: rotate(0deg);
+    }
+    39.27%{
+        transform: rotate(0deg);
+    }
+    42.84% {
+        transform: rotate(0deg);
+    }
+    46.41%{
+        transform: rotate(40deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    53.55%{
+        transform: rotate(0deg);
+    }
+    57.12% {
+        transform: rotate(0deg);
+    }
+    60.69%{
+        transform: rotate(30deg);
+    }
+    64.26%{
+        transform: rotate(0deg);
+    }
+    67.83%{
+        transform: rotate(0deg);
+    }
+    71.4% {
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(20deg);
+    }
+    78.54%{
+        transform: rotate(0deg);
+    }
+    81.11%{
+        transform: rotate(0deg);
+    }
+    85.68% {
+        transform: rotate(0deg);
+    }
+    89.25%{
+        transform: rotate(10deg);
+    }
+    92.82%{
+        transform: rotate(0deg);
+    }
+    96.39%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes ball_rotate_right {
+    0% {
+        transform: rotate(0deg);
+    }
+    3.57%{
+        transform: rotate(0deg);
+    }
+    7.14%{
+        transform: rotate(0deg);
+    }
+    10.71%{
+        transform: rotate(-70deg);
+    }
+    14.28% {
+        transform: rotate(0deg);
+    }
+    17.85%{
+        transform: rotate(0deg);
+    }
+    21.42%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-60deg);
+    }
+    28.56% {
+        transform: rotate(0deg);
+    }
+    32.13%{
+        transform: rotate(0deg);
+    }
+    35.7%{
+        transform: rotate(0deg);
+    }
+    39.27%{
+        transform: rotate(-50deg);
+    }
+    42.84% {
+        transform: rotate(0deg);
+    }
+    46.41%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    53.55%{
+        transform: rotate(-40deg);
+    }
+    57.12% {
+        transform: rotate(0deg);
+    }
+    60.69%{
+        transform: rotate(0deg);
+    }
+    64.26%{
+        transform: rotate(0deg);
+    }
+    67.83%{
+        transform: rotate(-30deg);
+    }
+    71.4% {
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    78.54%{
+        transform: rotate(0deg);
+    }
+    81.11%{
+        transform: rotate(-20deg);
+    }
+    85.68% {
+        transform: rotate(0deg);
+    }
+    89.25%{
+        transform: rotate(0deg);
+    }
+    92.82%{
+        transform: rotate(0deg);
+    }
+    96.39%{
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

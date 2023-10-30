@@ -1,0 +1,88 @@
+html, body, .intro {
+  height: 100%;
+
+}
+body {
+  // Все теги а в body
+  & ~ a :link :lang(en) {
+    // выделим все непосещённые ссылки
+    font-weight: bold;
+  }
+  & ~ a :visited {
+    color: blueviolet;
+  }
+}
+table td, table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.table-scroll {
+  border-radius: .5rem;
+}
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
+
+thead {
+  top: 0;
+  position: sticky;
+}
+
+.td-desc {
+  white-space: normal;
+  text-align: justify;
+
+  & > :not(:nth-child(even)) {
+    color: #0c4128;
+  }
+}
+
+* :empty {
+  & :active {
+    color: #101214;
+  }
+  & :disabled {
+    color: red;
+  }
+}
+
+
+.input-control ::before ::after{
+  display: flex;
+  flex-direction: column;
+  & > input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+  &.success input {
+    border-color: #09c372;
+  }
+  &.error input {
+    border-color: #ff3860;
+  }
+  & .error {
+    color: #ff3860;
+    font-size: 16px;
+    height: 13px;
+  }
+}
+

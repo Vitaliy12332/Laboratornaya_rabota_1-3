@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/67533eb7ff.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__body">
+				<div class="header__box">
+					<a href="index.html">
+						<img src="img/logo.png" alt="">
+					</a>
+					<form class="header__search">
+						<select name="" id="">
+							<option value="">Browse</option>
+						</select>
+						<input type="search" placeholder="Search for Item...">
+						<button type="submit">
+							<i class="fas fa-search"></i>
+						</button>
+					</form>
+				</div>
+				<div class="header__box">
+					<button class="header__box__basket_btn"><i class="fas fa-shopping-cart"></i></button>
+					<button class="header__box__profile_btn">MyAccount</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="header__nav">
+		<div class="container">
+			<nav class="header__nav__body">
+				<a href="">home</a>
+				<a href="">man</a>
+				<a href="">woman</a>
+				<a href="">kids</a>
+				<a href="">accoseriese</a>
+				<a href="">featured</a>
+				<a href="">hot deals</a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="content">
+        <div class="breadcrumb">
+            <div class="container">
+                <div class="breadcrumb__body">
+                    <div class="breadcrumb__title">
+                        New arrivals
+                    </div>
+                    <div class="breadcrumb__subtitle">
+                        Home / menu / <span>new arrivals</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="shop__product">
+        <div class="container">
+			<div class="shop__product__body">
+				<div class="shop__product__top__filter">
+					<div class="shop__product__dropdown">
+						<button class="shop__product__dropbtn">Category
+							<i class="fas fa-caret-down"></i>
+						</button>
+						<div class="shop__product__dropdown-content">
+						<a href="#">Accessories</a>
+						<a href="#">Bags</a>
+						<a href="#">Denim</a>
+						<a href="#">Hoodies & Sweatshirts</a>
+						<a href="#">Jackets & Coats</a>
+						<a href="#">Pants</a>
+						<a href="#">Polos</a>
+						<a href="#">Shirts</a>
+						<a href="#">Shoes</a>
+						<a href="#">Shorts</a>
+						<a href="#">Sweaters & Knits</a>
+						<a href="#">T-Shirts</a>
+						<a href="#">Tanks</a>
+						</div>
+					</div>
+					<div class="shop__product__dropdown">
+						<button class="shop__product__dropbtn">Brand
+							<i class="fas fa-caret-down"></i>
+						</button>
+						<div class="shop__product__dropdown-content">
+						<a href="#"></a>
+						</div>
+					</div>
+					<div class="shop__product__dropdown">
+						<button class="shop__product__dropbtn">Designer
+							<i class="fas fa-caret-down"></i>
+						</button>
+						<div class="shop__product__dropdown-content">
+						<a href="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="shop__product__main">
+					<div class="shop__product__pagination">
+						<div class="shop__product__pagination_column">
+							<div class="shop_column">
+								<h1>Trending now</h1>
+								<p>
+									<span>Bohemian</span>
+									<span>Floral</span>
+									<span>Lace</span>
+								</p>
+								<p>
+									<span>Floral</span>
+									<span>Lace</span>
+									<span>Bohemian</span>
+								</p>
+							</div>
+							<div class="shop_column">
+								<h1>Size</h1>
+								<div class="label_1">
+									<label>
+										<input type="checkbox"> 
+										<span>xxs</span>
+									</label>
+									<label>
+										<input type="checkbox"> 
+										<span>xs</span>
+									</label>
+									<label>
+										<input type="checkbox"> 
+										<span>s</span>
+									</label>
+									<label>
+										<input type="checkbox"> 
+										<span>m</span>
+									</label>
+								</div>
+								<div class="label_1">
+									<label>
+										<input type="checkbox"> 
+										<span>l</span>
+									</label>
+									<label>
+										<input type="checkbox"> 
+										<span>xl</span>
+									</label>
+									<label>
+										<input type="checkbox"> 
+										<span>xxl</span>
+									</label>
+								</div>
+							</div>
+							<div class="shop_column">
+								<h1>Price</h1>
+								<input type="range" min="1" max="5000" value="1" class="slider__1" id="lower">
+								<input type="range" min="1" max="5000" value="5000" class="slider__1" id="higher">	
+								<div class="shop_column_cost">
+									<span>$52</span>
+									<span>$400</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="shop__product__pagination_row">
+							<span>
+								Sort By
+							</span>
+							<select>
+								<option>
+									Name
+								</option>
+								<option>
+									Cost
+								</option>
+							</select>
+							<span>
+								Show
+							</span>
+							<select>
+								<option>
+									09
+								</option>
+								<option>
+									08
+								</option>
+							</select>
+						</div>
+					</div>
+
+
+					<div class="shop__product__list">
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="shop__product__list__box">
+							<img src="img/categ1.png" alt="">
+							<div class="shop__product__list__label">
+								<span class="shop__product__list__title">
+									Mango  People  T-shirt
+								</span>
+								<span class="shop__product__list__cost">
+									$52.00
+								</span>
+							</div>
+							<div class="black_op">
+								<button class="black_btn">
+									<i class="fas fa-shopping-cart"></i>
+									<span>Add To Cart</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="shop__product__sidebar">
+						<span>
+							<i class="fas fa-angle-left"></i>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+							<a href="">6</a>
+							<a href="">7</a>
+							<p>...</p>
+							<a href="">30</a>
+							<i class="fas fa-angle-right"></i>
+						</span>
+						<button>
+							View All
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+        <div class="feature_1">
+			<div class="container">
+				<div class="feature__body_1">
+						<div class="feature__box_3">
+							<div class="feature__box__title_1">Free Delivery</div>
+							<div class="feature__box__subtitle_1">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+						</div>
+
+						<div class="feature__box_3">
+							<div class="feature__box__title_1">Sales & discounts</div>
+							<div class="feature__box__subtitle_1">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+						</div>
+
+						<div class="feature__box_3">
+							<div class="feature__box__title_1">Quality assurance</div>
+							<div class="feature__box__subtitle_1">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+                        </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="subscribe">
+			<div class="container">
+				<div class="subscribe__body">
+					<div class="subscribe__box">
+						<img src="img/ava.webp" alt="" class="subscribe__review__logo">
+						<div class="subscribe__review">
+							<div class="review__text">
+								<p>
+									“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+									a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+								</p>
+
+								<span class="review__title">Bin Burhan</span>
+								<span class="review__subtitle">Dhaka, Bd</span>
+								<div class="review__slider">
+									<div class="review__slider_line"></div>
+									<div class="review__slider_line"></div>
+									<div class="review__slider_line"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="subscribe__box">
+						<form>
+							<input type="email" placeholder="Enter Your Email">
+							<button type="submit">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+        </div>
+        
+
+
+
+	</div>
+
+	<footer class="footer">
+		<div class="footer__body">
+			<div class="container">
+				<div class="footer__body__box">
+					<div class="footer__body__desc">
+						<img src="img/logo.png" alt="">
+						<p>
+							Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. 
+						</p>
+						<p>
+							Efficiently plagiarize 24/365 action items and focused infomediaries.
+							Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+						</p>
+					</div>
+					<div class="footer__body__column">
+						<div class="column">
+							<span class="column__title">COMPANY</span>
+							<a class="column__subtitle" href="">Home</a>
+							<a class="column__subtitle" href="">Shop</a>
+							<a class="column__subtitle" href="">About</a>
+							<a class="column__subtitle" href="">Howit Works</a>
+							<a class="column__subtitle" href="">Contact</a>
+						</div>
+						<div class="column">
+							<span class="column__title">INFORMATION</span>
+							<a class="column__subtitle" href="">Tearms & Condition</a>
+							<a class="column__subtitle" href="">Privacy Policy</a>
+							<a class="column__subtitle" href="">How to Buy</a>
+							<a class="column__subtitle" href="">How ot Sell</a>
+							<a class="column__subtitle" href="">Promotion</a>
+						</div>
+						<div class="column">
+							<span class="column__title">shop category</span>
+							<a class="column__subtitle" href="">Men</a>
+							<a class="column__subtitle" href="">Women</a>
+							<a class="column__subtitle" href="">Child</a>
+							<a class="column__subtitle" href="">Apparel</a>
+							<a class="column__subtitle" href="">Brows All</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__copy">
+			<div class="container">
+				<div class="footer__copy__box">
+					<span>© 2017  Brand  All Rights Reserved.</span>
+					<div class="footer__soc">
+						<a href="">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="">
+							<i class="fab fa-pinterest-p"></i>
+						</a>
+						<a href="">
+							<i class="fab fa-google-plus-g"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
